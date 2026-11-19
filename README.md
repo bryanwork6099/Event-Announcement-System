@@ -67,11 +67,15 @@ The application consists of two main workflows.
 
 ### 2.1.1 Network Architecture Flow Diagram
 
-![Power of Math - AWS Architecture](./images/Event-Announcement-System-Flow.png)
+The flow diagram illustrates how users interact with the application, from accessing the website and subscribing to email notifications to creating events and receiving announcements.
+
+![AWS Event Announcement System - Network Architecture Flow](./images/Event-Announcement-System-Flow.png)
 
 ### 2.1.2 Network Architecture Topology Diagram
 
-(./images/Event-Announcement-Topology.png)
+The topology diagram provides a visual representation of the AWS infrastructure and how the services are interconnected, including Amazon S3, CloudFront, API Gateway, Lambda, SNS, IAM, and CloudWatch.
+
+![AWS Event Announcement System - Network Architecture Topology](./images/Event-Announcement-Topology.png)
 
 # 3. Project Folder Structure
 
@@ -692,39 +696,55 @@ Do not run `terraform apply` without reviewing the proposed changes.
 
 # 12. Deployment Results
 
-This section showcases the completed deployment and successful testing of the AWS Event Announcement System.
+This section highlights the successful deployment and end-to-end testing of the AWS Event Announcement System. The screenshots demonstrate the email subscription process, event creation workflow, real-time notifications, and final website interface.
 
-### 12.1 Deployment Result 1
+## 12.1 Email Subscription Request
 
-<!-- Insert Deployment Result Image 1 Here -->
+A user enters their Gmail address through the website to subscribe to event announcements.
 
-### 12.2 Deployment Result 2
+![Email Subscription Request](./images/Subscribe-Event-Notification.png)
 
-<!-- Insert Deployment Result Image 2 Here -->
+## 12.2 Successful Email Subscription
 
-### 12.3 Deployment Result 3
+The website displays a success notification after the subscription request has been processed successfully.
 
-<!-- Insert Deployment Result Image 3 Here -->
+![Subscription Successful](./images/Subscription-Successful.png)
 
-### 12.4 Deployment Result 4
+## 12.3 Subscription Confirmation Email
 
-<!-- Insert Deployment Result Image 4 Here -->
+Gmail displays the Amazon SNS subscription confirmation email, allowing the user to confirm their subscription.
 
-### 12.5 Deployment Result 5
+![Gmail Subscription Confirmation](./images/Gmail-Results.png)
 
-<!-- Insert Deployment Result Image 5 Here -->
+## 12.4 Create New Event Interface
 
-### 12.6 Deployment Result 6
+The event creation form allows users to enter the event title, date, and description.
 
-<!-- Insert Deployment Result Image 6 Here -->
+![Create New Event Interface](./images/Create-Event-Notification.png)
 
-### 12.7 Deployment Result 7
+## 12.5 Real-Time Event Creation
 
-<!-- Insert Deployment Result Image 7 Here -->
+An example of creating a new event through the website using the event submission form.
 
-### 12.8 Deployment Result 8
+![Real-Time Event Creation](./images/Create-Event-Notification-Full.png)
 
-<!-- Insert Deployment Result Image 8 Here -->
+## 12.6 Successful Event Creation
+
+The website displays a confirmation message after the new event has been successfully created and processed.
+
+![Event Creation Successful](./images/Event-Creation-Successful.png)
+
+## 12.7 Real-Time Event Announcement Email
+
+Gmail receives the newly created event announcement through Amazon SNS, demonstrating successful notification delivery to confirmed subscribers.
+
+![Real-Time Gmail Event Notification](./images/Gmail-Results-RealTimeUpdate.png)
+
+## 12.8 Completed Website Interface
+
+The final website layout displaying the AWS Event Announcement System and its event management functionality.
+
+![Completed Event Announcement Website](./images/Event-Announcement-Website.png)
 
 # 13. Conclusion
 
