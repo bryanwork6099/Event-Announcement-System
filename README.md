@@ -65,6 +65,14 @@ The application consists of two main workflows.
 5. Lambda publishes an announcement to Amazon SNS.
 6. SNS distributes the notification to confirmed subscribers.
 
+### 2.1.1 Network Architecture Flow Diagram
+
+<!-- Insert Network Architecture Flow Image Here -->
+
+### 2.1.2 Network Architecture Topology Diagram
+
+<!-- Insert Network Architecture Topology Image Here -->
+
 # 3. Project Folder Structure
 
 The project uses the following folder structure:
@@ -91,7 +99,11 @@ Event-Announcement-System/
 │   └── update-frontend.sh
 │
 ├── deploy.sh
-│
+|
+├── destroy.sh
+|
+├── .gitignore
+|
 └── README.md
 ```
 
@@ -678,7 +690,43 @@ terraform apply
 
 Do not run `terraform apply` without reviewing the proposed changes.
 
-# 12. Conclusion
+# 12. Deployment Results
+
+This section showcases the completed deployment and successful testing of the AWS Event Announcement System.
+
+### 12.1 Deployment Result 1
+
+<!-- Insert Deployment Result Image 1 Here -->
+
+### 12.2 Deployment Result 2
+
+<!-- Insert Deployment Result Image 2 Here -->
+
+### 12.3 Deployment Result 3
+
+<!-- Insert Deployment Result Image 3 Here -->
+
+### 12.4 Deployment Result 4
+
+<!-- Insert Deployment Result Image 4 Here -->
+
+### 12.5 Deployment Result 5
+
+<!-- Insert Deployment Result Image 5 Here -->
+
+### 12.6 Deployment Result 6
+
+<!-- Insert Deployment Result Image 6 Here -->
+
+### 12.7 Deployment Result 7
+
+<!-- Insert Deployment Result Image 7 Here -->
+
+### 12.8 Deployment Result 8
+
+<!-- Insert Deployment Result Image 8 Here -->
+
+# 13. Conclusion
 
 The AWS Event Announcement System demonstrates how multiple AWS services can be integrated to build a serverless, event-driven application.
 
