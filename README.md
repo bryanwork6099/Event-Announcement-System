@@ -234,7 +234,7 @@ Through this project, I gained practical experience in:
 
 ## 👨‍💻 Author
 
-**Your Name**
+**Bryan Lim**
 
 Cloud & Infrastructure Projects | AWS | Terraform | Networking | Cloud Security
 
