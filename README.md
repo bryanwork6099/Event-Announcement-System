@@ -1,4 +1,4 @@
-# AWS Event Announcement System
+<img width="1281" height="540" alt="Event-Announcement-System-Flow" src="https://github.com/user-attachments/assets/59d7624a-2dda-46b9-956d-74e9f1ee4ee1" /># AWS Event Announcement System
 ## Deployment, Configuration, Testing and Troubleshooting Guide
 
 **Project Name:** AWS Event Announcement System  
@@ -67,11 +67,11 @@ The application consists of two main workflows.
 
 ### 2.1.1 Network Architecture Flow Diagram
 
-<!-- Insert Network Architecture Flow Image Here -->
+![Power of Math - AWS Architecture](./images/Event-Announcement-System-Flow.png)
 
 ### 2.1.2 Network Architecture Topology Diagram
 
-<!-- Insert Network Architecture Topology Image Here -->
+(./images/Event-Announcement-Topology.png)
 
 # 3. Project Folder Structure
 
