@@ -1,4 +1,3 @@
-<img width="1281" height="540" alt="Event-Announcement-System-Flow" src="https://github.com/user-attachments/assets/59d7624a-2dda-46b9-956d-74e9f1ee4ee1" /># AWS Event Announcement System
 ## Deployment, Configuration, Testing and Troubleshooting Guide
 
 **Project Name:** AWS Event Announcement System  
